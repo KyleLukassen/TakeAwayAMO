@@ -32,8 +32,8 @@ for (var i = 0; i < aShoppingCart.length;i++){
 	Cart+="</tr>";
 }
 Cart+="</table>"
-//deze lijn zet de tabel in de div met ID(table)
-document.getElementById("table").innerHTML=Cart;
+//deze lijn zet de tabel in de div met ID(Rekening)
+document.getElementById("Rekening").innerHTML=Cart;
 
 //het berekenen van het totaal
 for(var T = 0; T < aShoppingCart.length; T++){

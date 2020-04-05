@@ -39,8 +39,8 @@ document.getElementById("Rekening").innerHTML=Cart;
 for(var T = 0; T < aShoppingCart.length; T++){
 	iSubtotaal = iSubtotaal + aShoppingCart[T].Price;
 }
-//punten worden in het eind bedrag gezet voor betere leesbaarheid
-var Totaal = iSubtotaal.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1.");
+//het totaal wordt naar de string om gezet en er wordt een constante aan gehouden van 2 decimalen achter de komma.
+var Totaal = iSubtotaal.toLocaleString("es-ES", {minimumFractionDigits: 2});
 //deze lijn zet het eind bedrag in de div met ID (totale)
 document.getElementById("totale").innerHTML= Totaal
  }

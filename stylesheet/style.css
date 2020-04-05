@@ -1,14 +1,24 @@
-/*styling van de pagina zelf*/
+/*styling van de hotpot pagina zelf*/
 .HotpotBody{
     background-color: #CC0701 ;
 
 }
-/*styling van de images in de table*/
+/*styling van het Hotpot Logo*/
+.HotpotLogo{
+    height: 50px;
+    width:250px; 
+}
+/*Styling van de hotpot navbar*/
+.HotpotNav{
+    background-color: #ffcb00;
+    float: left;
+}
+/*styling van de images in de hotpot table*/
 .Hotpotimg{
     width: 225px;
     height: 225px;
 }
-/*CSS animatie die de table met gerechten de pagina in laat glijden*/
+/*CSS animatie die de table met hotpot gerechten de pagina in laat glijden*/
 .GerechtenHotpot{
     animation-duration: 3s;
     animation-name: slidein;
@@ -22,7 +32,7 @@
       margin-left: 0%;
     }
 }
-/*styling van de table*/
+/*styling van de hotpot table*/
 .HotpotBody table{
     border: solid black 1px;
     margin: 0px;
@@ -47,10 +57,12 @@
     border-spacing: 0px;
 
 }
+/*styling van de rekening divs*/
 .fixed{
     background-color: #fff7c6;
     float: left;
 }
+/*styling van de noodles images*/
 .NoodleImage{
     width: 250px;
     height: 250px;

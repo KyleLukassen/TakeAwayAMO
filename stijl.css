@@ -1,0 +1,39 @@
+body{
+   height: 2000px;
+}
+.kaas{
+    background-color: brown;
+    margin-top: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+width: 160px;
+}
+.header{
+    background: #cc080160;
+}
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.title-color{
+    padding-top: 50px;
+}
+.maki{
+    margin-left: 100px;
+}
+.uramaki{
+margin: 100px;
+margin-left: 200px;
+}
+.temaki{
+    margin: 100px;
+    margin-left: 100px;
+    }

@@ -1,5 +1,5 @@
 body{
-   height: 2000px;
+   height: 1725px;
 }
 .kaas{
     background-color: brown;
@@ -28,12 +28,47 @@ width: 160px;
 }
 .maki{
     margin-left: 100px;
+    
+}
+.maki-text{
+margin-left: 100px;
 }
 .uramaki{
-margin: 100px;
-margin-left: 200px;
+margin-left: 600px;
+margin-top: -295px;
+}
+.uramaki-text{
+    margin-left: 600px;
+margin-top: -85px;
 }
 .temaki{
-    margin: 100px;
+margin-left: 1100px;
+margin-top: -290px;
+}
+.temaki-text{
+    margin-left: 1100px;
+    margin-top: -75px;
+}
+.gunkan{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.gunkan-text{
     margin-left: 100px;
     }
+.ushi{
+    margin-left: 600px;
+    margin-top: -290px;
+}
+.ushi-text{
+    margin-left: 600px;
+margin-top: -78px;
+}
+.nare{
+    margin-left: 1100px;
+    margin-top: -290px;
+}
+.nare-text{
+    margin-left: 1100px;
+    margin-top: -75px;
+}

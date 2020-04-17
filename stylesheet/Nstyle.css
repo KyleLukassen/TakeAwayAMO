@@ -1,0 +1,48 @@
+/*styling van de pagina zelf*/
+.HotpotBody{
+    background-color: #CC0701 ;
+
+}
+
+
+/*CSS voor de grote text*/
+div.c {
+    font-size:  100px;
+    font-family: "Helvetica";
+}
+
+/*CSS animatie die de table noodle gerechten de pagina in laat glijden*/
+.GerechtenHotpot{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+}
+
+/*CSS animatie die de table met noodle de pagina in laat glijden*/
+.Menu{
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+}
+
+/*styling van de rekening divs*/
+.fixed{
+    background-color: #fff7c6;
+    float: left;
+}

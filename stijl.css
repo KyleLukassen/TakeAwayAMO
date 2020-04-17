@@ -1,0 +1,74 @@
+body{
+   height: 1500px;
+}
+.kaas{
+    background-color: brown;
+    margin-top: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+width: 160px;
+}
+.header{
+    background: #cc080160;
+}
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.title-color{
+    padding-top: 50px;
+}
+.maki{
+    margin-left: 100px;
+    
+}
+.maki-text{
+margin-left: 100px;
+}
+.uramaki{
+margin-left: 600px;
+margin-top: -295px;
+}
+.uramaki-text{
+    margin-left: 600px;
+margin-top: -85px;
+}
+.temaki{
+margin-left: 1100px;
+margin-top: -290px;
+}
+.temaki-text{
+    margin-left: 1100px;
+    margin-top: -75px;
+}
+.gunkan{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.gunkan-text{
+    margin-left: 100px;
+    }
+.ushi{
+    margin-left: 600px;
+    margin-top: -290px;
+}
+.ushi-text{
+    margin-left: 600px;
+margin-top: -78px;
+}
+.nare{
+    margin-left: 1100px;
+    margin-top: -290px;
+}
+.nare-text{
+    margin-left: 1100px;
+    margin-top: -75px;
+}
